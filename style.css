@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;
+
+}
+.carousel-item img{
+width: 100%;
+height: 93vh;
+}
+
+.About_Us{
+    min-width: 90%;
+    max-height: 700px
+}
+
+.services .row>* {
+    padding-right:0;
+    padding-left:0;
+}
+.row my-5{
+    display: flex;
+}
+.offer_style{
+    background:#3994d6;
+}
+.Juhuimg{
+    height: 20rem;
+}
+.footer{
+    background-color: #808080;
+    text-align: center;
+    margin-bottom: -3rem;
+}
+.footer2{
+    background-color: #808080;
+    text-align: center;
+    margin-top: 13rem;
+}
+
+.card-img-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .medium-img {
+    max-height: 500px; /* Adjusted height for medium size */
+    width: auto;
+    object-fit: cover; /* Ensures the image remains proportionate */
+  }
+  .button{
+    width: 50%;
+    padding: 15px;
+    background: linear-gradient(to right, #48bb0a, #12e503);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+
+/*responsive css code*/
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
